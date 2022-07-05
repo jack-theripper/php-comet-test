@@ -1,1 +1,1 @@
-web: php app.php start
+worker: php app.php start
