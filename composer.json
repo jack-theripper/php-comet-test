@@ -1,0 +1,8 @@
+{
+    "require": {
+        "gotzmann/comet": "^2.3"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^221.0"
+    }
+}
