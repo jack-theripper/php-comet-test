@@ -1,6 +1,7 @@
 {
     "require": {
-        "gotzmann/comet": "^2.3"
+        "slim/slim": "^4.10",
+        "guzzlehttp/psr7": "^2.4"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^221.0"
