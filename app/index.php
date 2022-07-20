@@ -12,3 +12,5 @@ $process = new \Symfony\Component\Process\Process([$ffmpegPath, '-version']);
 $process->mustRun();
 
 echo '<pre>'.$process->getOutput().'</pre>';
+
+phpinfo();
