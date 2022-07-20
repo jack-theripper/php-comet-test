@@ -2,7 +2,8 @@
     "require": {
         "slim/slim": "^4.10",
         "guzzlehttp/psr7": "^2.4",
-        "symfony/process": "^6.1"
+        "symfony/process": "^6.1",
+        "ext-phalcon": "*"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^221.0"
