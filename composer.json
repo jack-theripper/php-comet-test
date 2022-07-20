@@ -1,11 +1,14 @@
 {
-    "require": {
-        "slim/slim": "^4.10",
-        "guzzlehttp/psr7": "^2.4",
-        "symfony/process": "^6.1",
-        "ext-phalcon": "*"
-    },
-    "require-dev": {
-        "heroku/heroku-buildpack-php": "^221.0"
-    }
+	"require": {
+		"slim/slim": "^4.10",
+		"guzzlehttp/psr7": "^2.4",
+		"symfony/process": "^6.1",
+		"ext-phalcon": "*",
+		"php": "~7.2",
+		"ext-mbstring": "*",
+		"mongodb/mongodb": "^1.4"
+	},
+	"require-dev": {
+		"heroku/heroku-buildpack-php": "^221.0"
+	}
 }
