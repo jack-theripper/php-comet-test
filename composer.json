@@ -4,9 +4,7 @@
 		"guzzlehttp/psr7": "^2.4",
 		"symfony/process": "^6.1",
 		"ext-phalcon": "*",
-		"php": "~7.2",
-		"ext-mbstring": "*",
-		"mongodb/mongodb": "^1.4"
+		"ext-mbstring": "*"
 	},
 	"require-dev": {
 		"heroku/heroku-buildpack-php": "^221.0"
