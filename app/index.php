@@ -1,20 +1,9 @@
 <?php
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
-use Slim\Factory\AppFactory;
+
+use Symfony\Component\Process\ExecutableFinder;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$app = AppFactory::create();
+$ffmpegPath = (new ExecutableFinder())->find('ffmpeg', false);
 
-$app->get('/', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("Hello world!");
-    return $response;
-});
-
-$app->get('/test', function (Request $request, Response $response, $args) {
-    $response->getBody()->write("test");
-    return $response;
-});
-
-$app->run();
+var_dump($ffmpegPath);
