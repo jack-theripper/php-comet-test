@@ -1,9 +1,9 @@
 {
 	"require": {
-		"symfony/process": "*",
+		"symfony/process": "^5.4",
 		"ext-phalcon": "*",
 		"ext-mbstring": "*",
-		"php": "^7.4"
+		"php": "7.4"
 	},
 	"require-dev": {
 		"heroku/heroku-buildpack-php": "^221.0"
