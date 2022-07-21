@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e99156a2fa7a751d724242de0c3de63",
+    "content-hash": "39c0b5314f254964ca4dc20aa0b59f41",
     "packages": [
         {
             "name": "symfony/polyfill-php80",
@@ -207,7 +207,7 @@
     "platform": {
         "ext-phalcon": "*",
         "ext-mbstring": "*",
-        "php": "7.4"
+        "php": "^7.4"
     },
     "platform-dev": [],
     "platform-overrides": {
