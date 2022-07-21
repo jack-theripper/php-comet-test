@@ -2,7 +2,9 @@
 	"require": {
 		"slim/slim": "^4.10",
 		"guzzlehttp/psr7": "^2.4",
-		"symfony/process": "^6.1",
+		"symfony/process": "^5.1",
+		"ext-phalcon": "*",
+		"ext-mbstring": "*",
 		"php": "^7.4"
 	},
 	"require-dev": {
