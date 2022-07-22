@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
+RewriteRule ^api app.php?$1 [L,QSA]
+RewriteRule ^/api index.php?$1 [L,QSA]
+RewriteRule ^(.*)$ /build/$1 [L,QSA]
