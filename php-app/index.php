@@ -25,6 +25,6 @@ $app->get('/api/robots', function () {
 );
 
 
-$app->handle();
+$app->handle( $_SERVER["REQUEST_URI"]);
 
 phpinfo();
