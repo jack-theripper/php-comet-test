@@ -12,10 +12,5 @@
 		"platform": {
 			"php": "7.4"
 		}
-	},
-	"scripts": {
-		"compile": [
-			"npm run --prefix ./reactjs-app build"
-		]
 	}
 }
