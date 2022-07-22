@@ -2,4 +2,8 @@ DirectoryIndex index.html index.php
 
 RewriteEngine On
 RewriteBase /
-RewriteRule ^rules.html$ app1/index.php?do=rules [L]
+
+RewriteRule ^api app1/index.php?do=rules [L]
+
+RewriteCond %{REQUEST_URI} !^/build/
+RewriteRule ^(.*)$ /build/$1 [QSA,L]
